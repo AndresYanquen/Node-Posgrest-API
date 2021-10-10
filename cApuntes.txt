@@ -1,0 +1,5 @@
+Carpetas: 
+
+    *Controllers : "Comunicacion y consultas a la base de datos",
+    *Routes: "Direcciones de los endpoints de la api",
+    *Middlewares: "Controladores para los formularios"
