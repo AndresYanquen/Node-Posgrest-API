@@ -1,0 +1,22 @@
+Listar bases de datos : \l 
+
+Listar tablas : \dt
+
+Utilizar base de datos : \c nombre_de_la_api
+
+Consulta general:  select * from users;
+
+
+CREATE DATABASE firstapi;
+
+CREATE TABLE users(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(40),
+    email TEXT
+);
+
+INSERT INTO users (name, email) VALUES
+('joe', 'joe.jason@hotmail.com'),
+('andres','andres.yanquen@hotmail.com');
+
+
